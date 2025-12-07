@@ -1,0 +1,23 @@
+# Global ignores
+.DS_Store
+Thumbs.db
+
+# Backend
+backend/.venv/
+backend/__pycache__/
+backend/*.db
+backend/.env
+backend/.pytest_cache/
+backend/quickquiz-375-firebase-adminsdk-fbsvc-2f003c2252.json
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+
+# IDE & misc
+.vscode/
+.idea/
+*.log
